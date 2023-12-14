@@ -80,7 +80,7 @@
 // afterExercise()
 
 function curse() {
-    return ('What the hell?!')
+    return 'What the hell?!'
 }
 function receivesAFunction(curse) {
     curse()
@@ -88,10 +88,10 @@ function receivesAFunction(curse) {
 
 function returnsANamedFunction() {
     return function stopIt() {
-        console.log('Don\'t curse, bro.')
+        return 'Don\'t curse, bro.'
     }
 }
 
 function returnsAnAnonymousFunction() {
-    return () => console.log('My bad, bro.')
+    return () => 'My bad, bro.'
 }
